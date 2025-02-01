@@ -32,7 +32,7 @@ const PaymentSuccess = () => {
           localStorage.setItem("paymentVerified", "true");
 
           setTimeout(() => {
-            navigate("/membership-form"); // Redirect back to form
+            navigate("/member"); // Redirect back to form
           }, 2000);
         } else {
           setMessage("Payment verification failed.");
